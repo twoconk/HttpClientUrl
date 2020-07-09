@@ -121,7 +121,7 @@ static void urlRequestCallback(int result,
 #endif
 ```
 
-
+# HttpClientUrl头文件和.mm文件的实现，其他文件可以直接参考android的库，目录结构不变
 ```c
 //
 //  HttpClientUrl.h
@@ -544,4 +544,12 @@ void HttpClientUrl::download(const char * strHash_,
 }
  
 
+```
+
+# 修改request.h
+
+```C
+    // modify skip_ssl from false to  true.
+    void set_url(const std::string &str_url, bool skip_ssl = true)
+   
 ```
