@@ -1,7 +1,7 @@
 # HttpClientUrl
-使用libcurl+openssl (交叉编译openssl和libcurl，可以参考：https://github.com/jasonacox/Build-OpenSSL-cURL 或者直接使用文华编译好的库 )，实现的http请求库 
+使用libcurl+openssl (交叉编译openssl和libcurl，可以参考：https://github.com/jasonacox/Build-OpenSSL-cURL 或者直接使用文华编译好的库 )，实现iOS版本使用的http请求库！ 
 
-在https://github.com/yutianzuo/android-curl 基础上，修改接口，改造成iOS可以使用的http请求库！
+主要参考 https://github.com/yutianzuo/android-curl ，修改接口，改造成iOS可以使用的http请求库！
 其中：建议使用YBNetwork的框架对外提供网络请求框架！
 
 
