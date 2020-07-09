@@ -6,7 +6,7 @@
 
 
 # 包括头文件等：
-
+```c
 #define USE_LIBCUR
 #ifdef USE_LIBCUR
 #include "HttpClientUrl.h"
@@ -42,8 +42,10 @@
 @end
 
 #endif
-
+```
+    
 # 发起网络请求
+```c
 #ifdef USE_LIBCUR
     HttpClientUrl *client = HttpClientUrl::sharedInstance();
     
@@ -117,5 +119,6 @@ static void urlRequestCallback(int result,
     }
 }
 #endif
+```
 
 
